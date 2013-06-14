@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4846126176B745000FAB316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4846125176B745000FAB316 /* UIKit.framework */; };
+		B4846128176B745000FAB316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4846127176B745000FAB316 /* Foundation.framework */; };
+		B484612A176B745000FAB316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4846129176B745000FAB316 /* CoreGraphics.framework */; };
+		B484612C176B745000FAB316 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B484612B176B745000FAB316 /* CoreData.framework */; };
+		B4846132176B745000FAB316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4846130176B745000FAB316 /* InfoPlist.strings */; };
+		B4846134176B745000FAB316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846133176B745000FAB316 /* main.m */; };
+		B4846138176B745000FAB316 /* FHKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846137176B745000FAB316 /* FHKAppDelegate.m */; };
+		B484613A176B745000FAB316 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B4846139176B745000FAB316 /* Default.png */; };
+		B484613C176B745000FAB316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B484613B176B745000FAB316 /* Default@2x.png */; };
+		B484613E176B745000FAB316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B484613D176B745000FAB316 /* Default-568h@2x.png */; };
+		B4846141176B745000FAB316 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B484613F176B745000FAB316 /* MainStoryboard.storyboard */; };
+		B4846144176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4846142176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld */; };
+		B4846147176B745000FAB316 /* FHKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846146176B745000FAB316 /* FHKMasterViewController.m */; };
+		B484614A176B745000FAB316 /* FHKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846149176B745000FAB316 /* FHKDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4846122176B745000FAB316 /* FHKPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHKPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4846125176B745000FAB316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4846127176B745000FAB316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4846129176B745000FAB316 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B484612B176B745000FAB316 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B484612F176B745000FAB316 /* FHKPullToRefresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FHKPullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		B4846131176B745000FAB316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4846133176B745000FAB316 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4846135176B745000FAB316 /* FHKPullToRefresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FHKPullToRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		B4846136176B745000FAB316 /* FHKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHKAppDelegate.h; sourceTree = "<group>"; };
+		B4846137176B745000FAB316 /* FHKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHKAppDelegate.m; sourceTree = "<group>"; };
+		B4846139176B745000FAB316 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B484613B176B745000FAB316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B484613D176B745000FAB316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B4846140176B745000FAB316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B4846143176B745000FAB316 /* FHKPullToRefresh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FHKPullToRefresh.xcdatamodel; sourceTree = "<group>"; };
+		B4846145176B745000FAB316 /* FHKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHKMasterViewController.h; sourceTree = "<group>"; };
+		B4846146176B745000FAB316 /* FHKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHKMasterViewController.m; sourceTree = "<group>"; };
+		B4846148176B745000FAB316 /* FHKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHKDetailViewController.h; sourceTree = "<group>"; };
+		B4846149176B745000FAB316 /* FHKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHKDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B484611F176B745000FAB316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4846126176B745000FAB316 /* UIKit.framework in Frameworks */,
+				B4846128176B745000FAB316 /* Foundation.framework in Frameworks */,
+				B484612A176B745000FAB316 /* CoreGraphics.framework in Frameworks */,
+				B484612C176B745000FAB316 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4846119176B745000FAB316 = {
+			isa = PBXGroup;
+			children = (
+				B484612D176B745000FAB316 /* FHKPullToRefresh */,
+				B4846124176B745000FAB316 /* Frameworks */,
+				B4846123176B745000FAB316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4846123176B745000FAB316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4846122176B745000FAB316 /* FHKPullToRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4846124176B745000FAB316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4846125176B745000FAB316 /* UIKit.framework */,
+				B4846127176B745000FAB316 /* Foundation.framework */,
+				B4846129176B745000FAB316 /* CoreGraphics.framework */,
+				B484612B176B745000FAB316 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B484612D176B745000FAB316 /* FHKPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B4846136176B745000FAB316 /* FHKAppDelegate.h */,
+				B4846137176B745000FAB316 /* FHKAppDelegate.m */,
+				B484613F176B745000FAB316 /* MainStoryboard.storyboard */,
+				B4846145176B745000FAB316 /* FHKMasterViewController.h */,
+				B4846146176B745000FAB316 /* FHKMasterViewController.m */,
+				B4846148176B745000FAB316 /* FHKDetailViewController.h */,
+				B4846149176B745000FAB316 /* FHKDetailViewController.m */,
+				B4846142176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld */,
+				B484612E176B745000FAB316 /* Supporting Files */,
+			);
+			path = FHKPullToRefresh;
+			sourceTree = "<group>";
+		};
+		B484612E176B745000FAB316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B484612F176B745000FAB316 /* FHKPullToRefresh-Info.plist */,
+				B4846130176B745000FAB316 /* InfoPlist.strings */,
+				B4846133176B745000FAB316 /* main.m */,
+				B4846135176B745000FAB316 /* FHKPullToRefresh-Prefix.pch */,
+				B4846139176B745000FAB316 /* Default.png */,
+				B484613B176B745000FAB316 /* Default@2x.png */,
+				B484613D176B745000FAB316 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4846121176B745000FAB316 /* FHKPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B484614D176B745000FAB316 /* Build configuration list for PBXNativeTarget "FHKPullToRefresh" */;
+			buildPhases = (
+				B484611E176B745000FAB316 /* Sources */,
+				B484611F176B745000FAB316 /* Frameworks */,
+				B4846120176B745000FAB316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHKPullToRefresh;
+			productName = FHKPullToRefresh;
+			productReference = B4846122176B745000FAB316 /* FHKPullToRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B484611A176B745000FAB316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FHK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alan Livingston";
+			};
+			buildConfigurationList = B484611D176B745000FAB316 /* Build configuration list for PBXProject "FHKPullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4846119176B745000FAB316;
+			productRefGroup = B4846123176B745000FAB316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4846121176B745000FAB316 /* FHKPullToRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4846120176B745000FAB316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4846132176B745000FAB316 /* InfoPlist.strings in Resources */,
+				B484613A176B745000FAB316 /* Default.png in Resources */,
+				B484613C176B745000FAB316 /* Default@2x.png in Resources */,
+				B484613E176B745000FAB316 /* Default-568h@2x.png in Resources */,
+				B4846141176B745000FAB316 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B484611E176B745000FAB316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4846134176B745000FAB316 /* main.m in Sources */,
+				B4846138176B745000FAB316 /* FHKAppDelegate.m in Sources */,
+				B4846144176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld in Sources */,
+				B4846147176B745000FAB316 /* FHKMasterViewController.m in Sources */,
+				B484614A176B745000FAB316 /* FHKDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4846130176B745000FAB316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4846131176B745000FAB316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B484613F176B745000FAB316 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4846140176B745000FAB316 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B484614B176B745000FAB316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B484614C176B745000FAB316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B484614E176B745000FAB316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FHKPullToRefresh/FHKPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "FHKPullToRefresh/FHKPullToRefresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B484614F176B745000FAB316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FHKPullToRefresh/FHKPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "FHKPullToRefresh/FHKPullToRefresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B484611D176B745000FAB316 /* Build configuration list for PBXProject "FHKPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B484614B176B745000FAB316 /* Debug */,
+				B484614C176B745000FAB316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B484614D176B745000FAB316 /* Build configuration list for PBXNativeTarget "FHKPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B484614E176B745000FAB316 /* Debug */,
+				B484614F176B745000FAB316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4846142176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4846143176B745000FAB316 /* FHKPullToRefresh.xcdatamodel */,
+			);
+			currentVersion = B4846143176B745000FAB316 /* FHKPullToRefresh.xcdatamodel */;
+			path = FHKPullToRefresh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B484611A176B745000FAB316 /* Project object */;
+}
