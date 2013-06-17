@@ -19,8 +19,13 @@
 		B484613E176B745000FAB316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B484613D176B745000FAB316 /* Default-568h@2x.png */; };
 		B4846141176B745000FAB316 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B484613F176B745000FAB316 /* MainStoryboard.storyboard */; };
 		B4846144176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4846142176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld */; };
-		B4846147176B745000FAB316 /* FHKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846146176B745000FAB316 /* FHKMasterViewController.m */; };
-		B484614A176B745000FAB316 /* FHKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846149176B745000FAB316 /* FHKDetailViewController.m */; };
+		B4846155176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846154176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.m */; };
+		B4846158176B981200FAB316 /* FHKTestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846157176B981200FAB316 /* FHKTestCollectionViewController.m */; };
+		B484615A176B991B00FAB316 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4846159176B991B00FAB316 /* QuartzCore.framework */; };
+		B484615E176BAD8D00FAB316 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B484615D176BAD8D00FAB316 /* arrow.png */; };
+		B4846164176BC02800FAB316 /* FHKRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846163176BC02800FAB316 /* FHKRefreshControl.m */; };
+		B4846166176F657D00FAB316 /* FHKRefreshControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4846165176F657D00FAB316 /* FHKRefreshControlView.xib */; };
+		B4846169176F677B00FAB316 /* FHKRefreshControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4846168176F677B00FAB316 /* FHKRefreshControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +45,17 @@
 		B484613D176B745000FAB316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B4846140176B745000FAB316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B4846143176B745000FAB316 /* FHKPullToRefresh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FHKPullToRefresh.xcdatamodel; sourceTree = "<group>"; };
-		B4846145176B745000FAB316 /* FHKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHKMasterViewController.h; sourceTree = "<group>"; };
-		B4846146176B745000FAB316 /* FHKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHKMasterViewController.m; sourceTree = "<group>"; };
-		B4846148176B745000FAB316 /* FHKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHKDetailViewController.h; sourceTree = "<group>"; };
-		B4846149176B745000FAB316 /* FHKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHKDetailViewController.m; sourceTree = "<group>"; };
+		B4846153176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHKPullToRefreshCollectionView.h; sourceTree = "<group>"; };
+		B4846154176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHKPullToRefreshCollectionView.m; sourceTree = "<group>"; };
+		B4846156176B981200FAB316 /* FHKTestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHKTestCollectionViewController.h; sourceTree = "<group>"; };
+		B4846157176B981200FAB316 /* FHKTestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHKTestCollectionViewController.m; sourceTree = "<group>"; };
+		B4846159176B991B00FAB316 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B484615D176BAD8D00FAB316 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		B4846162176BC02800FAB316 /* FHKRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHKRefreshControl.h; sourceTree = "<group>"; };
+		B4846163176BC02800FAB316 /* FHKRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHKRefreshControl.m; sourceTree = "<group>"; };
+		B4846165176F657D00FAB316 /* FHKRefreshControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHKRefreshControlView.xib; sourceTree = "<group>"; };
+		B4846167176F677B00FAB316 /* FHKRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHKRefreshControlView.h; sourceTree = "<group>"; };
+		B4846168176F677B00FAB316 /* FHKRefreshControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHKRefreshControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B484615A176B991B00FAB316 /* QuartzCore.framework in Frameworks */,
 				B4846126176B745000FAB316 /* UIKit.framework in Frameworks */,
 				B4846128176B745000FAB316 /* Foundation.framework in Frameworks */,
 				B484612A176B745000FAB316 /* CoreGraphics.framework in Frameworks */,
@@ -64,6 +77,7 @@
 		B4846119176B745000FAB316 = {
 			isa = PBXGroup;
 			children = (
+				B4846159176B991B00FAB316 /* QuartzCore.framework */,
 				B484612D176B745000FAB316 /* FHKPullToRefresh */,
 				B4846124176B745000FAB316 /* Frameworks */,
 				B4846123176B745000FAB316 /* Products */,
@@ -95,12 +109,18 @@
 				B4846136176B745000FAB316 /* FHKAppDelegate.h */,
 				B4846137176B745000FAB316 /* FHKAppDelegate.m */,
 				B484613F176B745000FAB316 /* MainStoryboard.storyboard */,
-				B4846145176B745000FAB316 /* FHKMasterViewController.h */,
-				B4846146176B745000FAB316 /* FHKMasterViewController.m */,
-				B4846148176B745000FAB316 /* FHKDetailViewController.h */,
-				B4846149176B745000FAB316 /* FHKDetailViewController.m */,
 				B4846142176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld */,
 				B484612E176B745000FAB316 /* Supporting Files */,
+				B4846153176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.h */,
+				B4846154176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.m */,
+				B484615D176BAD8D00FAB316 /* arrow.png */,
+				B4846156176B981200FAB316 /* FHKTestCollectionViewController.h */,
+				B4846157176B981200FAB316 /* FHKTestCollectionViewController.m */,
+				B4846162176BC02800FAB316 /* FHKRefreshControl.h */,
+				B4846163176BC02800FAB316 /* FHKRefreshControl.m */,
+				B4846165176F657D00FAB316 /* FHKRefreshControlView.xib */,
+				B4846167176F677B00FAB316 /* FHKRefreshControlView.h */,
+				B4846168176F677B00FAB316 /* FHKRefreshControlView.m */,
 			);
 			path = FHKPullToRefresh;
 			sourceTree = "<group>";
@@ -176,6 +196,8 @@
 				B484613C176B745000FAB316 /* Default@2x.png in Resources */,
 				B484613E176B745000FAB316 /* Default-568h@2x.png in Resources */,
 				B4846141176B745000FAB316 /* MainStoryboard.storyboard in Resources */,
+				B484615E176BAD8D00FAB316 /* arrow.png in Resources */,
+				B4846166176F657D00FAB316 /* FHKRefreshControlView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +211,10 @@
 				B4846134176B745000FAB316 /* main.m in Sources */,
 				B4846138176B745000FAB316 /* FHKAppDelegate.m in Sources */,
 				B4846144176B745000FAB316 /* FHKPullToRefresh.xcdatamodeld in Sources */,
-				B4846147176B745000FAB316 /* FHKMasterViewController.m in Sources */,
-				B484614A176B745000FAB316 /* FHKDetailViewController.m in Sources */,
+				B4846155176B8FAE00FAB316 /* FHKPullToRefreshCollectionView.m in Sources */,
+				B4846158176B981200FAB316 /* FHKTestCollectionViewController.m in Sources */,
+				B4846164176BC02800FAB316 /* FHKRefreshControl.m in Sources */,
+				B4846169176F677B00FAB316 /* FHKRefreshControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
